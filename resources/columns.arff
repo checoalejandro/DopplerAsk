@@ -1,0 +1,25 @@
+@relation stream
+
+@attribute ﻿name {profit,id,revenue,country,location,units,name,sales,date,time,datetime,discount,cost,season}
+@attribute locale {en_us}
+@attribute type {currency,number,text,date}
+@attribute length numeric
+@attribute num_decimals numeric
+@attribute is_geo {FALSE,TRUE}
+@attribute is_time_based {FALSE,TRUE}
+
+@data
+profit,en_us,currency,?,2,FALSE,FALSE
+id,en_us,number,2,0,FALSE,FALSE
+revenue,en_us,currency,?,2,FALSE,FALSE
+country,en_us,text,?,?,TRUE,FALSE
+location,en_us,text,?,?,TRUE,FALSE
+units,en_us,number,?,0,FALSE,FALSE
+name,en_us,text,?,?,FALSE,FALSE
+sales,en_us,currency,?,2,FALSE,FALSE
+date,en_us,date,?,?,FALSE,TRUE
+time,en_us,date,?,?,FALSE,TRUE
+datetime,en_us,date,?,?,FALSE,TRUE
+discount,en_us,currency,?,2,FALSE,FALSE
+cost,en_us,currency,?,2,FALSE,FALSE
+season,en_us,text,?,?,FALSE,TRUE

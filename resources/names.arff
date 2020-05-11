@@ -1,0 +1,54 @@
+@relation stream
+
+@attribute simple_name {profit,gains,ingress,revenue,income,takings,proceeds,loss,waste,id,ids,identifier,#,nation,country,territory,state,city,continent,coordinate,month,year,hour,minute,date,time,updated,day,period,sales,gross,discount,price,cost,fee,tariff,fare,value,charge,season,region,count,identification,units,quarter}
+@attribute name_class {profit,revenue,loss,id,country,location,date,time,sales,discount,cost,season,units}
+@attribute locale {en_us}
+
+@data
+profit,profit,en_us
+gains,profit,en_us
+ingress,profit,en_us
+revenue,revenue,en_us
+income,revenue,en_us
+takings,revenue,en_us
+proceeds,revenue,en_us
+loss,loss,en_us
+waste,loss,en_us
+id,id,en_us
+ids,id,en_us
+identifier,id,en_us
+#,id,en_us
+nation,country,en_us
+country,country,en_us
+territory,country,en_us
+state,location,en_us
+city,location,en_us
+continent,location,en_us
+coordinate,location,en_us
+month,date,en_us
+year,date,en_us
+hour,time,en_us
+minute,time,en_us
+date,date,en_us
+time,time,en_us
+updated,date,en_us
+day,date,en_us
+period,date,en_us
+sales,sales,en_us
+gross,sales,en_us
+discount,discount,en_us
+price,cost,en_us
+cost,cost,en_us
+fee,cost,en_us
+tariff,cost,en_us
+fare,cost,en_us
+value,cost,en_us
+charge,cost,en_us
+season,season,en_us
+day,date,en_us
+region,location,en_us
+count,id,en_us
+identification,id,en_us
+units,units,en_us
+identification,id,en_us
+quarter,season,en_us

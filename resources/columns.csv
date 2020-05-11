@@ -1,0 +1,15 @@
+﻿name,locale,type,length,num_decimals,is_geo,is_time_based
+profit,en_us,currency,,2,FALSE,FALSE
+id,en_us,number,2,0,FALSE,FALSE
+revenue,en_us,currency,,2,FALSE,FALSE
+country,en_us,text,,,TRUE,FALSE
+location,en_us,text,,,TRUE,FALSE
+units,en_us,number,,0,FALSE,FALSE
+name,en_us,text,,,FALSE,FALSE
+sales,en_us,currency,,2,FALSE,FALSE
+date,en_us,date,,,FALSE,TRUE
+time,en_us,date,,,FALSE,TRUE
+datetime,en_us,date,,,FALSE,TRUE
+discount,en_us,currency,,2,FALSE,FALSE
+cost,en_us,currency,,2,FALSE,FALSE
+season,en_us,text,,,FALSE,TRUE
